@@ -1,0 +1,4 @@
+# Django backend dependencies
+Django>=4.2
+graphene-django>=3.0
+django-cors-headers>=4.0
