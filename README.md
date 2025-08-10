@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+	<img src="/public/next.svg" width="80" alt="Next.js Logo" />
+	<img src="/public/vercel.svg" width="80" alt="Vercel Logo" />
+	<img src="/public/globe.svg" width="80" alt="Globe" />
+	<h1>📝 Minimalist To-Do App Frontend</h1>
+	<p>A beautiful, modern To-Do application built with Next.js, React, and Tailwind CSS.</p>
+</div>
+
+---
+
+## Features
+
+- **Minimalist UI**: Clean, modern, and responsive design using Tailwind CSS.
+- **Task Management**: View, create, and manage your to-dos with ease.
+- **Fast & Scalable**: Built with Next.js 15 and React 19 for optimal performance.
+- **GraphQL Ready**: Integrated with GraphQL for future backend connectivity.
+- **TypeScript**: Type-safe codebase for reliability and maintainability.
+
+---
+
+## FRONTEND Stack
+
+- [Next.js](https://nextjs.org/) 15
+- [React](https://react.dev/) 19
+- [Tailwind CSS](https://tailwindcss.com/) 4
+- [TypeScript](https://www.typescriptlang.org/)
+- [GraphQL](https://graphql.org/)
+- [TanStack React Query](https://tanstack.com/query/latest)
+
+---
 
 ## Getting Started
 
-First, run the development server:
+Clone the repository and install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Start the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+frontend/
+└── onesignalfrontend/
+		├── src/
+		│   └── app/
+		│       ├── page.tsx        # Main landing page (minimalist UI)
+		│       ├── layout.tsx      # App layout
+		│       ├── globals.css     # Tailwind & custom styles
+		│       └── todos/          # To-Do pages
+		├── public/                 # Static assets
+		├── tailwind.config.js      # Tailwind configuration
+		├── postcss.config.mjs      # PostCSS configuration
+		├── package.json            # Project metadata & scripts
+		└── README.md               # Project documentation
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## UI & Design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- The UI is inspired by minimalist principles: soft colors, rounded corners, and subtle shadows.
+- All pages use Tailwind CSS utility classes for rapid styling and responsiveness.
+- The main page and To-Do pages feature:
+  - Centered content
+  - Modern typography
+  - Smooth hover and transition effects
+  - Mobile-friendly layouts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## What Has Been Done So Far
+
+- Project bootstrapped with Next.js and pnpm.
+- Tailwind CSS fully integrated and configured.
+- Main landing page redesigned with a minimalist, beautiful UI.
+- To-Do pages structured for easy navigation and future expansion.
+- Custom global styles and Google Fonts added for a clean look.
+- All dependencies updated to the latest stable versions.
+
+---
+
+## Resources & References
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [React Documentation](https://react.dev/)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/)
+
+---
+
+## Next Steps
+
+- Connect frontend to backend via GraphQL API.
+- Add authentication and user management.
+- Implement advanced To-Do features (due dates, priorities, etc).
+- Write unit and integration tests.
+
+---
+
+<div align="center">
+	<sub>Submitted On 10 August 2025. </sub>
+</div>
